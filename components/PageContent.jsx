@@ -119,7 +119,7 @@ PageContent.propTypes = {
 PageContent.defaultProps = {
 	components: {},
 	isHome: false,
-	socialmedia: [],
+	socialmedias: [],
 };
 
 export default PageContent;
