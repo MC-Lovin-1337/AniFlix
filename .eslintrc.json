@@ -1,3 +1,83 @@
 {
-  "extends": "next/core-web-vitals"
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "next",
+    "next/core-web-vitals"
+  ],
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "ignorePatterns": ["tmp"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["simple-import-sort", "prettier"],
+  "rules": {
+    "react/prop-types": "error",
+    "prettier/prettier": "error",
+    "quote-props": "off",
+    "react/sort-prop-types": "error",
+    "react/jsx-no-duplicate-props": [
+      "error",
+      { "ignoreCase": false }
+    ],
+    "react/jsx-sort-props": "error",
+    "react/jsx-sort-default-props": "error",
+    "react/jsx-filename-extension": [
+      "warn",
+      { "extensions": [".js", ".jsx"] }
+    ],
+    "react/forbid-prop-types": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "components": [],
+        "required": {
+          "some": ["nesting", "id"]
+        },
+        "allowChildren": false
+      }
+    ],
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/sort-comp": "off",
+    "scss/at-import-partial-extension-blacklist": "off",
+    "scss/dollar-variable-pattern": "off",
+    "declaration-no-important": "off",
+    "font-weight-notation": "off",
+    "simple-import-sort/imports": "error",
+    "sort-imports": "off",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-cycle": "off",
+    "import/no-duplicates": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": true }
+    ],
+    "import/prefer-default-export": "off",
+    "indent": "off",
+    "no-console": "off",
+    "no-underscore-dangle": [
+      "error",
+      { "allow": ["_meta"] }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

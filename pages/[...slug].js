@@ -2,9 +2,10 @@ import Head from 'next/head';
 import PropTypes from 'prop-types';
 
 import PageContent from '../components/PageContent';
-import {getPageContent} from '../lib/api';
+import {getPageContent, getPageSlugs} from '../lib/api';
 
 export default function Home({page, socialmedias}) {
+	if (!page) return null;
 	return (
 		<>
 			<Head>
@@ -25,29 +26,27 @@ export default function Home({page, socialmedias}) {
 				)}
 				{page.metaimage && <meta content={page.metaimage.url} key="image" property="og:image" />}
 			</Head>
-			<PageContent components={page.components} isHome socialmedias={socialmedias} />
-			<div className="moon-background">
-				<div className="moonlight">
-					<div className="moonlight__wrap js-parallax-moonlight">
-						<div className="layer moonlight__img" data-depth="0.2"></div>
-					</div>
-				</div>
-			</div>
-			<div className="star js-parallax-star">
-				<div className="layer" data-depth="0.1">
-					<div className="star__img">
-						<img src="/img/star.svg" />
-					</div>
-				</div>
-			</div>
-			<div className="sky-color"></div>
+			<PageContent components={page.components} socialmedias={socialmedias} />
 		</>
 	);
 }
 
 // Fetch data at build time
-export async function getStaticProps() {
-	const content = (await getPageContent('index')) || [];
+export async function getStaticPaths() {
+	const pages = (await getPageSlugs()) || [];
+	return {
+		paths: pages
+			.filter((page) => page !== 'index')
+			.map((page) => ({
+				params: {slug: page.slug.split('/')},
+			})),
+		fallback: true,
+	};
+}
+
+// Fetch data at build time
+export async function getStaticProps(context) {
+	const content = (await getPageContent(context.params.slug)) || [];
 	return {
 		props: {page: content.page, socialmedias: content.socialmedias},
 	};

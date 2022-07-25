@@ -1,0 +1,12 @@
+export {default as Layout} from './Layout';
+export {default as Navigation} from './Navigation';
+export {default as Hero} from './Hero';
+export {default as About} from './About';
+export {default as Contact} from './Contact';
+export {default as Footer} from './Footer';
+export {default as Aboutmetop} from './Aboutmetop';
+export {default as Aboutme1} from './Aboutme1';
+export {default as Aboutme2} from './Aboutme2';
+export {default as Aboutme3} from './Aboutme3';
+export {default as Contacttop} from './Contacttop';
+export {default as Form} from './Form';
