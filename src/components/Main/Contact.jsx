@@ -1,7 +1,5 @@
 import React from "react";
 import "../../pages/Contact/ContactPage.css";
-/* TypedJs */
-import Typical from "react-typical";
 
 /* Multilanguage */
 import { FormattedMessage } from "react-intl";
@@ -13,21 +11,6 @@ const Contact = () => (
     </h2>
     <h3 className="titulo" data-aos="fade-left" data-aos-delay="300">
       <FormattedMessage id="contact-info" defaultMessage="" />
-      <Typical
-        className="site-contacto"
-        loop={Infinity}
-        wrapper="b"
-        steps={[
-          "Email",
-          1500,
-          "WhatsApp",
-          1500,
-          "Linkedin",
-          1500,
-          "Github",
-          1500,
-        ]}
-      />
     </h3>
     <div className="icons">
       <a
