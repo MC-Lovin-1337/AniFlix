@@ -20,6 +20,7 @@ const projectImg = require.context("../../img", true);
 
 const Project = () => {
   const [stateModal1, switchStateModal1] = useState(false);
+  const [stateModal2, switchStateModal2] = useState(false);
 
   return (
     <div>
@@ -47,10 +48,20 @@ const Project = () => {
               />
             </a>
           </div>
+
+          <div className="projects__item">
+            <a onClick={() => switchStateModal2(!stateModal2)}>
+              <img
+                src={projectImg("./project-2.jpg")}
+                alt=""
+                className="projects__img"
+              />
+            </a>
+          </div>
         </section>
       </main>
 
-      <Modal estado={stateModal1} cambiarEstado={switchStateModal1}>
+      <Modal estado={stateModal1} changeState={switchStateModal1}>
         <div className="content-modal">
           <div className="pw-content">
             <div className="eins-modal-preview">
@@ -96,6 +107,57 @@ const Project = () => {
                   />
                   <img
                     src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x309-yynfidez.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
+
+      <Modal estado={stateModal2} changeState={switchStateModal2}>
+        <div className="content-modal">
+          <div className="pw-content">
+            <div className="eins-modal-preview">
+              <img src={projectImg("./project-2-com.png")} alt="" />
+            </div>
+            <div className="eins-modal-text">
+              <p>
+                <FormattedMessage id="project-info-2-p1" defaultMessage="" />
+              </p>
+              <p>
+                <FormattedMessage id="project-info-2-p2" defaultMessage="" />
+              </p>
+              <div className="eins-modal-text-2">
+                <span>Link:</span>{" "}
+                <a
+                  href="https://weather-app-theta-pink.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  https://Weather-app.com
+                </a>
+              </div>
+              <div className="eins-modal-text-3">
+                <span>
+                  <FormattedMessage id="project-tech" defaultMessage="" />
+                </span>
+                <div className="eins-modal-tec">
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                     alt=""
                   />
                 </div>

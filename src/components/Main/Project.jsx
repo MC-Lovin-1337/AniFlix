@@ -83,6 +83,36 @@ const Project = () => {
               </a>
             </div>
           </SwiperSlide>
+
+          <SwiperSlide className="caja">
+            <img src={projectImg("./project-2.jpg")} alt="projects" />
+            <div className="content">
+              <h3>Weather App</h3>
+              <p>Weather Website</p>
+              <p className="technology">
+                HTML5
+                <span> -</span> CSS
+                <span> -</span> JavaScript
+                <span> -</span> react
+              </p>
+              <a
+                href="https://weather-app-theta-pink.vercel.app/"
+                className="custom-btn btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Demo</span>
+              </a>
+              <a
+                href="https://github.com/MC-Lovin-1337/Weather_App"
+                className="custom-btn btn-codigo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repository
+              </a>
+            </div>
+          </SwiperSlide>
         </Swiper>
         <div className="swiper-break"></div>
       </div>
