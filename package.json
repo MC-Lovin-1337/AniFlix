@@ -1,5 +1,5 @@
 {
-	"name": "Portfolio MC Lovin 1337",
+	"name": "Aniflix",
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {
@@ -25,7 +25,6 @@
 	},
 	"eslintConfig": {
 		"extends": [
-			"react-app",
 			"react-app/jest"
 		],
 		"rules": {

@@ -1,24 +1,15 @@
 import React from "react";
 
-/* Componet */
+/* Komponente */
 import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
-import Main from "../../components/Main";
-import Content from "../../components/Content/Content";
-import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
+import Start from "../../components/Home/Home";
 
 const Home = () => {
   return (
     <div>
       <Header />
 
-      <Content />
-
-      <Main />
-
-      <ScrollToTop />
-
-      <Footer />
+      <Start />
     </div>
   );
 };
