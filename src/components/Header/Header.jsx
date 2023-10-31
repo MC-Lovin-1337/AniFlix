@@ -11,7 +11,7 @@ const Navigation = () => {
       <a href="#" class="logo">
         <span>Ani</span>Flix
       </a>
-      <nav class="navbar">
+      <nav className="navbar">
         <Link to="start" spy={true} offset={-150} href="#start">
           <FormattedMessage id="home" defaultMessage="" />
         </Link>
@@ -28,10 +28,10 @@ const Navigation = () => {
           <FormattedMessage id="family" defaultMessage="" />
         </Link>
       </nav>
-      <div class="icons">
-        <i class="fas fa-bars" id="menu-bars"></i>
-        <i class="fas fa-search" id="search-icon"></i>
-        <a href="#" class="fas fa-heart"></a>
+      <div className="icons">
+        <i className="fas fa-bars" id="menu-bars"></i>
+        <i className="fas fa-search" id="search-icon"></i>
+        <a href="#" className="fas fa-heart"></a>
       </div>
     </header>
   );
