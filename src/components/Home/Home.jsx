@@ -39,14 +39,17 @@ const Home = () => {
               <div className="content">
                 <h3>Attack on Titan</h3>
                 <p>
-                  Vor vielen Jahren wurde die Menschheit durch das Auftauchen
-                  riesiger Kreaturen, die alle Menschen verschlangen, an den
-                  Rand der Auslöschung gebracht. durch das Auftauchen von
-                  riesigen Kreaturen, die alle Menschen verschlangen.
-                  verschlangen alle Menschen.
+                  <FormattedMessage
+                    id="aot-home"
+                    defaultMessage="Default Text"
+                  />
                 </p>
+
                 <a href="download.html" className="btn">
-                  Download
+                  <FormattedMessage
+                    id="btn-down"
+                    defaultMessage="Default Text"
+                  />
                 </a>
               </div>
             </div>
@@ -62,12 +65,16 @@ const Home = () => {
               <div className="content">
                 <h3>Demon Slayer</h3>
                 <p>
-                  Es ist die Taisho-Ära in Japan. Tanjiro, ein junger Mann, der
-                  Kohle verkauft, erfährt eines Tages, dass seine Familie von
-                  einem Dämon getötet worden ist. wurde von einem Dämon getötet.
+                  <FormattedMessage
+                    id="demon-home"
+                    defaultMessage="Default Text"
+                  />
                 </p>
                 <a href="#" className="btn">
-                  Download
+                  <FormattedMessage
+                    id="btn-down"
+                    defaultMessage="Default Text"
+                  />
                 </a>
               </div>
             </div>
@@ -81,16 +88,18 @@ const Home = () => {
               }}
             >
               <div className="content">
-                <h3>Kakegurui</h3>
+                <h3>kakegurui</h3>
                 <p>
-                  High Roller Yumeko Jabami will an der Hyakkaou-Akademie
-                  aufräumen, einer Schule, an der die Schüler Hyakkaou-Akademie,
-                  einer Schule, an der die Schüler ausschließlich nach ihren
-                  Spielfähigkeiten bewertet werden ausschließlich nach ihren
-                  Glücksspielfähigkeiten bewertet werden.
+                  <FormattedMessage
+                    id="kakegurui-home"
+                    defaultMessage="Default Text"
+                  />
                 </p>
                 <a href="#" className="btn">
-                  Download
+                  <FormattedMessage
+                    id="btn-down"
+                    defaultMessage="Default Text"
+                  />
                 </a>
               </div>
             </div>
@@ -106,13 +115,16 @@ const Home = () => {
               <div className="content">
                 <h3>One Punch Man</h3>
                 <p>
-                  Saitama hat sich die Heldentaten zum Hobby gemacht, und nach
-                  drei Jahren zermürbenden Trainings hat er ein solches Maß an
-                  Stärke erreicht, dass er jeden Gegner mit einem einzigen
-                  Schlag ausschalten kann.
+                  <FormattedMessage
+                    id="onePunch-home"
+                    defaultMessage="Default Text"
+                  />
                 </p>
                 <a href="#" className="btn">
-                  Download
+                  <FormattedMessage
+                    id="btn-down"
+                    defaultMessage="Default Text"
+                  />
                 </a>
               </div>
             </div>
@@ -128,13 +140,16 @@ const Home = () => {
               <div className="content">
                 <h3>DEATH NOTE</h3>
                 <p>
-                  Ein Highschool-Schüler entdeckt ein Notizbuch mit einer bösen
-                  Macht: Es verleiht eine übernatürliche Fähigkeit zu töten,
-                  denn wenn jemand einen Namen auf die Seiten schreibt, wird
-                  diese Person sterben.
+                  <FormattedMessage
+                    id="death-home"
+                    defaultMessage="Default Text"
+                  />
                 </p>
                 <a href="#" className="btn">
-                  Download
+                  <FormattedMessage
+                    id="btn-down"
+                    defaultMessage="Default Text"
+                  />
                 </a>
               </div>
             </div>
@@ -148,16 +163,18 @@ const Home = () => {
               }}
             >
               <div className="content">
-                <h3>Naruto</h3>
+                <h3>naruto</h3>
                 <p>
-                  Naruto Uzumaki ist ein ausgestoßenes Kind in dem Ninja-Dorf,
-                  in dem er lebt. In ihm steckt die Kraft einer Bestie, die vor
-                  Jahren kurz davor war, das Dorf zu zerstören, der Kyubi, der
-                  neunschwänzige Fuchs, was dazu führt, dass sich niemand ihm
-                  nähern will, da er als verflucht gilt.
+                  <FormattedMessage
+                    id="naruto-home"
+                    defaultMessage="Default Text"
+                  />
                 </p>
                 <a href="#" className="btn">
-                  Download
+                  <FormattedMessage
+                    id="btn-down"
+                    defaultMessage="Default Text"
+                  />
                 </a>
               </div>
             </div>

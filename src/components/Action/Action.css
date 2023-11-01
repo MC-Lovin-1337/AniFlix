@@ -1,20 +1,20 @@
-.anime{
+.action{
     padding:5rem;
 }
 
-.anime .box{
-    width: 299px;
+.action .box{
+    width:299px;
     height:168px;
 }
 
-.anime .content h3{
+.action .content h3{
     font-size: 1.7rem;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
 }
 
-.anime .content P{
+.action .content P{
     font-size: 1.2rem;
     color:#fff;
     text-decoration: none;

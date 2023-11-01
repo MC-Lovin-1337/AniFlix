@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
 
 :root{
-    --red:#E50914;
+    --orange:#e56109;
     --white:#fff;
     --black:#000000;
     --light-color:#181818;
@@ -45,14 +45,14 @@ section:nth-child(even){
 }
 
 .copyright .logo{
-    color: var(--red);
+    color: var(--orange);
     font-size: 2.1rem;
     font-weight: bolder;
 }
 
 .copyright p{
     font-size: 0.9rem;
-    color: var(--red);
+    color: var(--orange);
     font-size:2rem;
 }
 
@@ -71,7 +71,7 @@ section:nth-child(even){
     display: inline-flex;
     font-size: 2.4rem;
     font-weight: 500;
-    border-bottom: 4px solid var(--red);
+    border-bottom: 4px solid var(--orange);
     color:#ffffff;
 }
 
@@ -90,7 +90,7 @@ section:nth-child(even){
     display: inline-flex;
     font-size: 2.4rem;
     font-weight: 500;
-    border-bottom: 4px solid var(--red);
+    border-bottom: 4px solid var(--orange);
     color:#ffffff;
     margin-top:1.6rem;
     
@@ -139,7 +139,7 @@ section:nth-child(even){
 
 .downlod-links a{
     text-align:center;
-    background: var(--red);
+    background: var(--orange);
     padding:12px 20px;
     color: #fff;
     letter-spacing:1px;
@@ -148,6 +148,6 @@ section:nth-child(even){
 
 .downlod-links a:hover{
     background: var(--black);
-    color: var(--red);
+    color: var(--orange);
     transition: 0.3s all linear;
 }

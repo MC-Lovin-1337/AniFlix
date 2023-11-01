@@ -1,0 +1,21 @@
+.popular{
+    padding:5rem;
+}
+
+.popular .box{
+    width: 299px;
+    height:168px;
+}
+
+.popular .content h3{
+    font-size: 1.7rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.popular .content P{
+    font-size: 1.2rem;
+    color:#fff;
+    text-decoration: none;
+}

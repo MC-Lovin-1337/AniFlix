@@ -11,7 +11,7 @@ header{
 
 .heading{
     text-align: center;
-    color: var(--red);
+    color: var(--orange);
     margin-bottom: 3rem;
     font-size:4rem;
 }
@@ -21,7 +21,7 @@ header{
     display: inline-block;
     font-size: 1.7rem;
     color: #fff;
-    background: var(--red);
+    background: var(--orange);
     border-radius: .5rem;
     cursor: pointer;
     padding: .8rem 3rem;
@@ -29,12 +29,12 @@ header{
 
 .btn:hover{
     background: var(--black);
-    color: var(--red);
+    color: var(--orange);
     letter-spacing: .1rem;
 }
 
 header .logo{
-    color: var(--red);;
+    color: var(--orange);;
     font-size: 2.5rem;
     font-weight: bolder;
 }
@@ -54,7 +54,7 @@ header .navbar a{
 header .navbar a.active,
 header .navbar a:hover{
     color: #fff;
-    background: var(--red);
+    background: var(--orange);
 }
 
 header .icons i,
@@ -68,12 +68,12 @@ header .icons a{
     font-size: 1.7rem;
     color: #fff;
     border-radius: 50%;
-    background:var(--red);
+    background:var(--orange);
 }
 
 header .icons i:hover,
 header .icons a:hover{
-    color: var(--red);
+    color: var(--orange);
     background: #fff;
     transform: rotate(360deg);
 }

@@ -8,15 +8,15 @@ import { FormattedMessage } from "react-intl";
 const Navigation = () => {
   return (
     <header>
-      <a href="#" class="logo">
-        <span>Ani</span>Flix
+      <a href="#" className="logo">
+        <span>Ani</span>Lix
       </a>
       <nav className="navbar">
-        <Link to="start" spy={true} offset={-150} href="#start">
+        <Link to="home" spy={true} offset={-150} href="#home">
           <FormattedMessage id="home" defaultMessage="" />
         </Link>
-        <Link to="anime" spy={true} offset={-150} href="#anime">
-          <FormattedMessage id="anime" defaultMessage="" />
+        <Link to="popular" spy={true} offset={-150} href="#popular">
+          <FormattedMessage id="popular" defaultMessage="" />
         </Link>
         <Link to="action" spy={true} offset={-150} href="#action">
           <FormattedMessage id="action" defaultMessage="" />

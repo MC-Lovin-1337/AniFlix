@@ -1,7 +1,28 @@
-{
-    "home": "Home",
-    "anime": "Anime",
-    "action": "Action",
-    "child": "Child",
-    "family": "Family"
-}
+    {
+        "menu": {
+            "home": "Home",
+            "popular": "Popular",
+            "action": "Action",
+            "child": "Child",
+            "family": "Family"
+        },
+        "btn-down": "Download",
+        "aot-home": "Vor vielen Jahren wurde die Menschheit durch das Auftauchen riesiger Kreaturen, die alle Menschen verschlangen, an den Rand der Auslöschung gebracht.",
+        "demon-home": "Es ist die Taisho-Ära in Japan. Tanjiro, ein junger Mann, der Kohle verkauft, erfährt eines Tages, dass seine Familie von einem Dämon getötet worden ist. wurde von einem Dämon getötet.",
+        "kakegurui-home": "High Roller Yumeko Jabami will an der Hyakkaou-Akademie aufräumen, einer Schule, an der die Schüler Hyakkaou-Akademie, einer Schule, an der die Schüler ausschließlich nach ihren Spielfähigkeiten bewertet werden ausschließlich nach ihren Glücksspielfähigkeiten bewertet werden.",
+        "onePunch-home": "Saitama hat sich die Heldentaten zum Hobby gemacht, und nach drei Jahren zermürbenden Trainings hat er ein solches Maß an Stärke erreicht, dass er jeden Gegner mit einem einzigen Schlag ausschalten kann.",
+        "death-home": "Ein Highschool-Schüler entdeckt ein Notizbuch mit einer bösen Macht: Es verleiht eine übernatürliche Fähigkeit zu töten, denn wenn jemand einen Namen auf die Seiten schreibt, wird diese Person sterben.",
+        "naruto-home": "naruto Uzumaki ist ein ausgestoßenes Kind in dem Ninja-Dorf, in dem er lebt. In ihm steckt die Kraft einer Bestie, die vor Jahren kurz davor war, das Dorf zu zerstören, der Kyubi, der neunschwänzige Fuchs, was dazu führt, dass sich niemand ihm nähern will, da er als verflucht gilt.",
+        "onePunch-pop": "Die Serie handelt von Saitama, einem Superhelden, der so mächtig ist, dass er jeden Feind mit einem einzigen Schlag besiegt, was zu Langeweile führt, da er keine echten Herausforderungen findet.",
+        "death-pop": "Death Note handelt von einem Schüler, der ein mysteriöses Notizbuch findet, mit dem er Menschen töten kann, indem er ihre Namen hineinschreibt. Die Serie folgt seinem Versuch, eine neue Weltordnung zu schaffen.",
+        "naruto-pop": "Der zwölfjährige Naruto ist das Sorgenkind der Ninja-Akademie im Dorf Konoha-Gakure. Er hat den ganzen Tag nur Flausen im Kopf! Zudem ist er auch noch der schlechteste Schüler der Klasse.",
+        "clover-pop": "Black Clover erzählt die Geschichte von Asta und Yuno, die trotz unterschiedlicher magischer Fähigkeiten gemeinsam nach Ruhm und Anerkennung als Zauberer streben.",
+        "jujutsu-pop": "Jujutsu Kaisen handelt von Yuji Itadori, der versehentlich einen Fluch verschluckt und in die gefährliche Welt der Jujutsu-Zauberei gezogen wird. Er schließt sich einer Organisation an.",
+        "haikyu-pop": "Haikyu ist ein Anime und Manga, der sich auf das Volleyballteam der Karasuno-Oberschule konzentriert, während es sich auf den Weg zur nationalen Meisterschaft macht.",
+        "kuroko-pop": "Der die Geschichte von Tetsuya Kuroko und Taiga Kagami erzählt, zwei Basketballspieler an der Seirin High School, die auf ihrem Weg zur Spitze des japanischen Highschool-Basketballs auf talentierte Rivalente treffen.",
+        "myHero-pop": "Eine Anime-Serie, die in einer Welt spielt, in der Menschen Superkräfte, sogenannte Quirks, entwickeln. Die Geschichte konzentriert sich auf Izuku Midoriya, einen Jungen ohne Quirk, der dennoch seinen Traum verfolgt.",
+        "drStone-pop": "Die Menschheit wacht nach einem mysteriösen Ereignis in Stein erstarrt auf, und ein junger Wissenschaftler namens Senku Ishigami setzt sich zum Ziel, die Zivilisation neu aufzubauen, indem er die Wissenschaft nutzt.",
+        "tokyo-pop": "Tokyo Revengers handelt von einem jungen Mann namens Takemichi, der die Fähigkeit erhält, in die Vergangenheit zu reisen und in sein Highschool-Leben zurückzukehren, um das Leben seiner Freunde zu retten.",
+        "sword-pop": "Sword Art Online ist ein Anime und eine Light-Novel-Serie, die in einer virtuellen Welt spielt, in der Spieler gefangen sind und um ihr Leben kämpfen müssen. Die Geschichte folgt Kirito und Asuna.",
+        "kengan-pop": "Kengan Ashura ist ein Anime, der Kämpfe zwischen Kämpfern aus verschiedenen Kampfkunststilen und Organisationen zeigt, die in Untergrundkämpfen antreten. Die Serie folgt Ohma Tokita, einem jungen Kämpfer."
+    }

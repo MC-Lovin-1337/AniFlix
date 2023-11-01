@@ -3,7 +3,8 @@ import React from "react";
 /* Komponente */
 import Header from "../../components/Header/Header";
 import Start from "../../components/Home/Home";
-import Anime from "../../components/Anime/Anime";
+import Popular from "../../components/Popular/Popular";
+import Action from "../../components/Action/Action";
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
 
       <Start />
 
-      <Anime />
+      <Popular />
+
+      <Action />
     </div>
   );
 };
