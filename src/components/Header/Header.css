@@ -35,13 +35,12 @@ header{
 
 header .logo{
     color: var(--orange);;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bolder;
 }
 
 header .logo span{
     color: var(--white);
-
 }
 
 header .navbar a{
@@ -78,6 +77,53 @@ header .icons a:hover{
     transform: rotate(360deg);
 }
 
-header .icons #menu-bars{
-    display: none;
+header .icons #navbar:hover,
+header .icons a:hover{
+    color: var(--orange);
+    background: #fff;
+    transform: rotate(360deg);
 }
+
+
+@media (min-width: 768px) {
+    header .fas.fa-bars {
+        display: none;
+    }
+}
+
+
+@media (max-width: 767px) {
+    header{
+        padding: 1rem 7%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        z-index: 10000;
+    }
+    
+    header .logo{
+        font-size: 3rem;
+    }
+    
+    header .navbar {
+        display: none;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+
+        header .navbar a {
+        font-size: 4rem;
+        padding: 2rem 1rem 0.5rem 1rem;
+        font-weight: bolder;
+        
+    }
+
+    header .navbar.open {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        
+    }
+}
+
+

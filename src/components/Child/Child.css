@@ -1,0 +1,21 @@
+.child{
+    padding:5rem;
+}
+
+.child .box{
+    width:299px;
+    height:168px;
+}
+
+.child .content h3{
+    font-size: 1.7rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.child .content P{
+    font-size: 1.2rem;
+    color:#fff;
+    text-decoration: none;
+}
