@@ -73,7 +73,7 @@ const Child = () => {
                 harness his powers as a ninja in this anime adventure series.
               </p>
               <a href="#" class="btn">
-                Descargar
+                Download
               </a>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Child = () => {
                 harness his powers as a ninja in this anime adventure series.
               </p>
               <a href="#" class="btn">
-                Descargar
+                Download
               </a>
             </div>
           </div>
@@ -111,7 +111,7 @@ const Child = () => {
                 harness his powers as a ninja in this anime adventure series.
               </p>
               <a href="#" class="btn">
-                Descargar
+                Download
               </a>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Child = () => {
                 harness his powers as a ninja in this anime adventure series.
               </p>
               <a href="#" class="btn">
-                Descargar
+                Download
               </a>
             </div>
           </div>
@@ -149,7 +149,7 @@ const Child = () => {
                 harness his powers as a ninja in this anime adventure series.
               </p>
               <a href="#" class="btn">
-                Descargar
+                Download
               </a>
             </div>
           </div>
@@ -168,7 +168,7 @@ const Child = () => {
                 harness his powers as a ninja in this anime adventure series.
               </p>
               <a href="#" class="btn">
-                Descargar
+                Download
               </a>
             </div>
           </div>
