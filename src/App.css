@@ -8,7 +8,6 @@
     --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
 }
 
-
 *{
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -55,6 +54,112 @@ section:nth-child(even){
     color: var(--orange);
     font-size:2rem;
 }
+
+.loader{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--light-color);
+    font-family: montserrat;
+    opacity: 1; 
+    transition: opacity 0.5s ease;
+}
+
+.loader.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+
+.ring{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: ring 2s linear infinite;
+}
+
+@keyframes ring {
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px var(--orange);
+    }
+    50%{
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px var(--white);
+    }
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px var(--orange);
+    }
+}
+
+.ring:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255,255,255,.3);
+}
+
+.span{
+    color: var(--orange);
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 200px;
+    animation: text 3s ease-in-out infinite;
+}
+
+.span span {
+    color: var(--white);
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 200px;
+    animation: text 3s ease-in-out infinite;
+
+}
+
+@keyframes text {
+    50%{
+        color: var(--light-color);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .video-container img{
